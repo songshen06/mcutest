@@ -1,0 +1,26 @@
+<TRANS_MCU><!-- The root is the transaction name. -->
+	<TRANS_COMMON_PARAMS>
+	<!-- In the login transaction the next two parameters have no meaning. Just
+	send 0. -->
+	<MCU_TOKEN>0</MCU_TOKEN>
+	<MCU_USER_TOKEN>0</MCU_USER_TOKEN>
+	<MESSAGE_ID>1</MESSAGE_ID>
+</TRANS_COMMON_PARAMS>
+<!-- The next element is the action (Login), and below it are the action’s
+parameters, in this case, the Login parameters. -->
+<ACTION>
+	<LOGIN>
+<!-- The next parameters are the MCU IP and the port number. -->
+	<MCU_IP>
+		<IP>172.21.88.155</IP>
+		<LISTEN_PORT>80</LISTEN_PORT>
+		<HOST_NAME/>
+	</MCU_IP>
+<!-- The user and password strings.-->
+	<USER_NAME>SUPPORT</USER_NAME>
+	<PASSWORD>SUPPORT</PASSWORD>
+	<STATION_NAME>A7P-44760-SSONG.polycom.com</STATION_NAME>
+	<COMPRESSION>false</COMPRESSION>
+	</LOGIN>
+</ACTION>
+</TRANS_MCU>
